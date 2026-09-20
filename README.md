@@ -11,7 +11,7 @@ Undergraduate engineer focused on **autonomous systems simulation**, **audio dee
 ### 🚀 Featured Projects
 
 #### 🤖 [AegisKinetic Studio](https://github.com/lakshiaharan/aegis-kinetic-studio)
-> **Interactive autonomous robotics simulation and real-time mission-control platform**  
+> **Interactive autonomous robotics simulation & pathfinding benchmark suite**  
 > `React 19` `TypeScript` `Node.js` `WebSockets` `Tailwind CSS` `Vitest`
 - **Simulation Engine**: 50 Hz telemetry stream over WebSockets with analytical 2D LiDAR raycasting & differential-drive unicycle kinematics.
 - **Pathfinding Benchmarks**: $A^*$ (0.62–0.94 ms), Dijkstra (2.01–3.77 ms), Greedy BFS (0.12–0.27 ms), and continuous RRT trajectory sampling.
@@ -27,14 +27,14 @@ Undergraduate engineer focused on **autonomous systems simulation**, **audio dee
 - 🔗 **[Web Demo](https://audio-classification-esc50.vercel.app)** • **[Source Code](https://github.com/lakshiaharan/audio-classification-esc50)**
 
 #### ☁️ [Spice Route Restaurant](https://github.com/lakshiaharan/spice-route-restaurant)
-> **Decoupled multi-tier cloud application built on AWS services**  
+> **Decoupled multi-tier cloud prototype built on AWS services**  
 > `AWS (EC2, DynamoDB, SNS, S3, CloudWatch)` `TypeScript` `Express` `PM2`
 - **Cloud Architecture**: REST API on EC2 Ubuntu Linux, DynamoDB On-Demand tables, Amazon SNS asynchronous pub/sub event fanout.
 - **Observability & Security**: Custom CloudWatch metric dispatcher with CPU alarms; IAM Instance Profiles with zero hardcoded credentials.
 - 🔗 **[Live Web App](https://spice-route-restaurant-flame.vercel.app/)** • **[S3 Static Site](http://spice-route-restaurant-lakshi-2026.s3-website.ap-south-1.amazonaws.com/)** • **[Source Code](https://github.com/lakshiaharan/spice-route-restaurant)**
 
 #### 🚑 [SynapseAid](https://github.com/lakshiaharan/synapse-aid)
-> **Multi-agent AI emergency triage simulation & deterministic routing architecture**  
+> **Browser-based emergency response simulation with deterministic multi-agent matching & hybrid retrieval**  
 > `TypeScript` `React` `Node.js` `Spatial GIS` `Gale-Shapley Matcher`
 - **System Design**: Dual-stream conversational triage integrating speech synthesis, retrieval, and GIS vector distance matching.
 - **Custom Algorithms**: In-browser Gale-Shapley responder matching, 24-D vector projection + BM25 rank fusion, and SHA-256 cryptographic audit ledger.
